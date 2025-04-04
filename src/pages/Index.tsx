@@ -7,6 +7,7 @@ import SkillsSection from '@/components/SkillsSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import ChatBubble from '@/components/ChatBubble';
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <ProjectsSection />
       <ContactSection />
       <Footer />
+      <ChatBubble />
     </div>
   );
 };
